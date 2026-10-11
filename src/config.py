@@ -3,7 +3,7 @@ import os
 GITHUB_API = "https://api.github.com"
 GITHUB_GRAPHQL_API = "https://api.github.com/graphql"
 
-USERNAME = os.getenv("GH_USERNAME", "YuLuowo")
+USERNAME = os.getenv("GH_USERNAME", "HuaLuowo")
 
 TOKEN = os.getenv("GH_TOKEN") or os.getenv("GITHUB_TOKEN") or ""
 
